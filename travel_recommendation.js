@@ -126,10 +126,7 @@ async function search() {
 
 function clear() {
     document.getElementById('result').innerHTML = `
-        <h1>EXPLORE THIS BUSY WORLD WITH BUSYBIRD!</h1>
-        <p>Travel around the world. See the best sceneries, visit the most interesting museums, meet experienced guides,
-        hang out with other fun tourists, and take great photos! We'll take care of the boring stuff - hotels, flights,
-        meals, transportation, scheduling. You just enjoy your vacation!</p>    
+            
     `
     document.getElementById('searchBar').value = '';
     console.log('cleared');
