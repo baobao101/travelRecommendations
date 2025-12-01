@@ -1,0 +1,200 @@
+/* Basic CSS for the navigation bar */
+
+* {
+    font-family: 'Courier New', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+nav {
+    background-color: #a6e8f5;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+    /*font-weight: bold;*/
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    /*font-weight: bold;*/
+}
+
+/* Basic CSS for the form elements */
+
+
+body {
+
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('https://recommend.com/wp-content/uploads/2017/10/Nat-Hab_Machu-Picchu.gif') no-repeat center/cover;
+
+
+}
+
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div {
+    /*margin-bottom: 10px;*/
+    font-size: 11px;
+}
+
+div>p {
+    margin: 5px;
+    text-align: center;
+}
+
+div>div>div:nth-child(1)>div>p {
+    background-color: #efefef;
+    border: 1px solid blue;
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    color: black;
+    width: 125px;
+    height: 125px;
+    padding: 5px;
+}
+
+div>div>div:nth-child(2)>div>p {
+    background-color: #f86d6d;
+    border: 1px solid blue;
+    position: absolute;
+    top: 280px;
+    left: 350px;
+    color: black;
+    width: 125px;
+    height: 125px;
+    padding: 5px;
+}
+
+div>div>div:nth-child(3)>div>p {
+    background-color: green;
+    border: 1px solid blue;
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    color: black;
+    width: 125px;
+    height: 125px;
+    padding: 5px;
+}
+
+
+
+
+
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 200px;
+    padding: 2px;
+}
+
+button {
+    padding: 5px 5px;
+    background-color: #6e91f1;
+
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/*
+button:hover {
+    background-color: #45a049;
+}*/
+
+/* Basic CSS for the report section */
+h2 {
+    margin-top: 30px;
+}
+
+#report,
+#intro {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#result {
+    height: 250px;
+    width: 250px;
+    display: flex;
+
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+#result img {
+    background-color: #efefef;
+    width: 125px;
+    height: 150px;
+}
+
+#result h1 {
+    color: black;
+    width: 125px;
+    height: 50px;
+}
+
+#result p {
+    color: black;
+    width: 125px;
+    max-width: 400px;
+}
+
+#contactForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
